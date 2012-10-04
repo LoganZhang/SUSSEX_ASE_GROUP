@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        tools:context=".MainActivity" />
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="14pt" />
+<com.google.android.maps.MapView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/map"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:clickable="true" 
+   android:enabled="true"
+   android:apiKey="0s0IO4lppX02IehF_rc3CrnzDsrHqV3ybMHoyxw"/>
+
+</LinearLayout>
